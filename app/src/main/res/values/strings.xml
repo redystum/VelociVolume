@@ -1,0 +1,55 @@
+<resources>
+    <string name="app_name">VelociVolume</string>
+    <string name="app_subtitle">Adaptive Speed Volume Control</string>
+
+    <!-- Quick Settings Tile -->
+    <string name="tile_speed_control">VelociVolume</string>
+    <string name="tile_active">Speed Volume: Active</string>
+    <string name="tile_inactive">Speed Volume: Off</string>
+
+    <!-- Status -->
+    <string name="status_monitoring_active">ACTIVE</string>
+    <string name="status_monitoring_inactive">INACTIVE</string>
+    <string name="status_desc_active">Monitoring speed and adjusting volume in background</string>
+    <string name="status_desc_inactive">Tap switch to start background speed volume control</string>
+
+    <!-- Master Switch -->
+    <string name="master_switch_title">Background Speed Monitoring</string>
+
+    <!-- Dashboard -->
+    <string name="current_speed_label">Current Speed</string>
+    <string name="current_volume_label">Current Volume</string>
+    <string name="unit_kmh">km/h</string>
+    <string name="unit_mph">mph</string>
+
+    <!-- Settings Sections -->
+    <string name="speed_thresholds_title">Speed Thresholds</string>
+    <string name="speed_thresholds_desc">Set the low and high speeds that define your volume curve</string>
+    <string name="min_speed_label">Min Speed (%s)</string>
+    <string name="max_speed_label">Max Speed (%s)</string>
+
+    <string name="volume_range_title">Volume Limits</string>
+    <string name="volume_range_desc">Set the lowest and highest allowed music volume</string>
+    <string name="min_volume_label">Min Volume: %d%%</string>
+    <string name="max_volume_label">Max Volume: %d%%</string>
+
+    <string name="smart_features_title">Smart Audio Options</string>
+    <string name="auto_pause_title">Auto-pause when stopped</string>
+    <string name="auto_pause_desc">Pauses media playback at 0 speed and resumes when you start moving</string>
+    <string name="smoothing_title">GPS Speed Smoothing</string>
+    <string name="smoothing_desc">Eliminates volume jitter caused by GPS fluctuations</string>
+    <string name="speed_unit_title">Speed Unit</string>
+
+    <!-- Permissions -->
+    <string name="permission_banner_title">Permissions Required</string>
+    <string name="permission_location_needed">Location permission is required to calculate your real-time vehicle/cycling speed.</string>
+    <string name="permission_notification_needed">Notification permission is required to run as a reliable background service.</string>
+    <string name="grant_permissions_button">Grant Permissions</string>
+
+    <!-- Notifications -->
+    <string name="notification_channel_name">Speed Monitoring Service</string>
+    <string name="notification_channel_desc">Active while monitoring speed to dynamically adjust volume</string>
+    <string name="notification_title">VelociVolume Running</string>
+    <string name="notification_speed_volume">Speed: %1$.1f %2$s | Volume: %3$d%%</string>
+    <string name="notification_stop_action">Stop</string>
+</resources>

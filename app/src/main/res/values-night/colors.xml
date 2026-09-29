@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Brand & Accent Colors - Dark Mode Cockpit -->
+    <color name="primary">#38BDF8</color>
+    <color name="primary_variant">#0284C7</color>
+    <color name="on_primary">#082F49</color>
+    <color name="primary_container">#0369A1</color>
+    <color name="on_primary_container">#E0F2FE</color>
+
+    <color name="secondary">#818CF8</color>
+    <color name="secondary_container">#3730A3</color>
+    <color name="on_secondary_container">#EEF2FF</color>
+
+    <color name="speed_accent">#22D3EE</color>
+    <color name="speed_accent_container">#164E63</color>
+    <color name="volume_accent">#A78BFA</color>
+    <color name="volume_accent_container">#4C1D95</color>
+
+    <color name="status_active">#34D399</color>
+    <color name="status_active_container">#064E3B</color>
+    <color name="status_inactive">#64748B</color>
+    <color name="status_inactive_container">#1E293B</color>
+
+    <color name="error">#F87171</color>
+
+    <color name="surface">#0B0F19</color>
+    <color name="surface_card">#151C2C</color>
+    <color name="surface_container_highest">#1E293B</color>
+    <color name="text_primary">#F8FAFC</color>
+    <color name="text_secondary">#94A3B8</color>
+    <color name="outline_variant">#334155</color>
+
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+</resources>
